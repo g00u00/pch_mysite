@@ -4,7 +4,6 @@ from . import views
 app_name = 'main'
 urlpatterns = [
     path('', views.index, name='index'),
-    path('mainf/ ', views.mainf, name='mainf'),
-    path('current_datetime/', views.current_datetime, name='current_datetime'),
-
+    path('main/', views.main, name='main'),
+    path('datetime_nov/', views.datetime_nov, name='datetime_nov'),
 ]

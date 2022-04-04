@@ -2,6 +2,18 @@
 
 {% block title %}title_pools{% endblock %}
 
+{% block nav_second %}
+    <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="../polls/">/polls</a></li>
+        <li class="nav-item"><a class="nav-link" href="../polls/polls">/polls/polls</a></li>
+        <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>
+        {#                <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'mysite' %}">mysite</a></li>#}
+        {#                <li class="nav-item"><a class="nav-link" href="{% url 'main' %}">main</a></li>#}
+        {#                <li class="nav-item"><a class="nav-link" href="{% url 'pools' %}">pools</a></li>#}
+        {#                <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>#}
+    </ul>
+{% endblock %}
+
 {% block content %}
 content_pools
 {% endblock %}
